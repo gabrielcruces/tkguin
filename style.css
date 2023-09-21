@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 0px;
+    
+    
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0px;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos do banner */
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+/* Estilos dos serviços */
+.servicos {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.servico {
+    margin-bottom: 40px;
+}
+
+.servico img {
+    max-width: 100%;
+}
+
+/* Estilos do formulário de contato */
+.contato {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .banner h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .servico {
+        margin-bottom: 20px;
+    }
+
+    .servico h3 {
+        font-size: 18px;
+    }
+
+    .contato {
+        padding: 30px 0;
+    }
+}
